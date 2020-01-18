@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>OKINE-COUNTER</title>
+<meta name="description" content="おきねちゃんが起きたり寝たりします">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500&display=swap" rel="stylesheet">
+<script type="text/javascript">
+window.onload = function() {
+
+  var count_disp = document.getElementById("disp_count");
+  var count_up_btn = document.getElementById("okine");
+  var count_value = 0;
+
+  count_up_btn.onclick = function (){
+    count_value += 1;
+    count_disp.innerHTML = count_value;
+  };
+};
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+  <header>
+      <h1>OKINE-<br>COUNTER</h1>
+  </header>
+  <main>
+    <p class="okine" ID="okine"></p>
+    <div id="disp_count" class="counter">0</div>
+  </main>
+  <footer>
+    <p class="copy">&copy&nbsp<a href="https:suirium.net">Ito Sui</a></p>
+  </footer>
+</div>
+</body>
+</html>

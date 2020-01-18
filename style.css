@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: normal;
+  background: #E8FF94;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* wrapper */
+
+.wrapper {
+  position: relative;
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+/* header */
+
+h1 {
+  line-height: 1;
+  font-size: 11vw;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    padding-top: 2vh;
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+/* main */
+
+.okine {
+  display: block;
+  margin: 0 auto;
+  background: url("images/sleep.png") no-repeat center bottom;
+  background-size: 70%;
+  max-width: 480px;
+  height: 40vh;
+ }
+@media screen and (min-width: 768px) {
+  .okine {
+    height: 35vh;
+  }
+}
+
+.okine:hover {
+  background: url("images/touch.png") no-repeat center bottom;
+  background-size: 70%;
+ }
+
+.okine:active {
+  background: url("images/wake.png") no-repeat center bottom;
+  background-size: 70%;
+}
+
+.counter {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .counter {
+    font-size: 80px;
+  }
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+@media screen and (max-width: 767px) {
+  footer {
+    bottom: -20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .copy {
+    font-size: 14px;
+  }
+}
