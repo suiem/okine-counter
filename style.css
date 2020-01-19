@@ -33,12 +33,12 @@ h1 {
   @media screen and (min-width: 768px) {
     h1 {
       padding-top: 2vh;
-      font-size: 6vw;
+      font-size: 5vw;
     }
   }
   @media screen and (min-width: 1440px) {
     h1 {
-      font-size: 5vw;
+      font-size: 4vw;
     }
   }
 
@@ -48,19 +48,19 @@ h1 {
   display: block;
   margin: 0 auto;
   background: url("images/sleep.png") no-repeat center bottom;
-  background-size: 70%;
+  background-size: 60%;
   max-width: 480px;
-  height: 36vh;
+  height: 35vh;
  }
 
 .okine:hover {
   background: url("images/touch.png") no-repeat center bottom;
-  background-size: 70%;
+  background-size: 60%;
  }
 
 .okine:active {
   background: url("images/wake.png") no-repeat center bottom;
-  background-size: 70%;
+  background-size: 60%;
 }
 
 .counter {
